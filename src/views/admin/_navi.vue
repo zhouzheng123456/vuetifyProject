@@ -15,7 +15,7 @@
       <img :src="require('@/assets/logo.svg')" />
     </div>
 
-    <v-divider class="my-4"/>
+    <v-divider class="my-4" />
     <v-list shaped>
       <template v-for="list in navList">
         <v-list-group
@@ -94,6 +94,23 @@ export default {
               title: "转场动画",
               path: "/bulb/motion",
               icon: "mdi-transition-masked"
+            }
+          ]
+        },
+        {
+          title: "测试列表",
+          icon: "mdi-access-point",
+          group: "/bulb",
+          items: [
+            {
+              title: "列表页",
+              path: "/table/lists",
+              icon: "mdi-view-grid"
+            },
+            {
+              title: "列表卡",
+              path: "/table/cards",
+              icon: "mdi-alpha"
             }
           ]
         }

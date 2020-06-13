@@ -38,6 +38,16 @@ const router = new Router({
                     name: "Table",
                     meta: "列表页",
                     component: () => import('@/views/table/clazz')
+                }, {
+                    path: '/table/lists',
+                    name: "Lists",
+                    meta: "列表demo1",
+                    component: () => import('@/views/table/demo1')
+                }, {
+                    path: '/table/cards',
+                    name: "Cards",
+                    meta: "列表demo2",
+                    component: () => import('@/views/table/demo2')
                 }
             ]
         },
