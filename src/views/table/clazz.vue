@@ -105,7 +105,7 @@ export default {
     ],
     // 数据表格数据
     headers: [
-      { text: "#", value: "first_col", sortable: false },
+      { text: "序号", value: "first_col", sortable: false },
       { text: "标题", value: "title", align: "left" },
       { text: "创建人", value: "creator" },
       { text: "创建时间", value: "createTime" },

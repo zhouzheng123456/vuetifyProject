@@ -9,7 +9,7 @@
     <v-btn icon @click.stop="fullscreen">
       <v-icon>{{fullscreenIcon}}</v-icon>
     </v-btn>
-    <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
+    <v-btn icon @click.stop="$vuetify.theme.light = !$vuetify.theme.light">
       <v-icon>mdi-theme-light-dark</v-icon>
     </v-btn>
     <v-btn icon @click.stop="sets">
